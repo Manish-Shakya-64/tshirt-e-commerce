@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+:root {
+  --background-primary: #ffffff; /* White background for light mode */
+  --background-secondary : #F1F1EF; /* Light background for light mode */
+  --hover-bg: #121212; /* Hover background */
+  --icon-color: #000000; /* Icon color for light mode */
+  --hover-link: #000000; /* Hover color */
+  --container-bg: #ffffff; /* White background for light mode */
+  --text-primary: #000000; /* Black text for light mode */
+  --text-secondary : #262B2C; /* Gray text for light mode */
+  --text-ternary : #989B9C; /* Gray text for light mode */
+  --color-mehndi :#6E7052; /* Green color for light mode */
+  --color-orange: #F5AB41; /* Orange color for light mode */
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --background-primary: #121212; /* Dark background for night mode */
+  --background-secondary : #1d1d1d; /* Dark background for night mode */
+  --hover-bg: #ffffff; /* White text for dark mode */
+  --icon-color: #ffffff; /* White icon color for dark mode */
+  --hover-link: #d4d4d4; /* Hover color in dark mode */
+  --text-primary: #ffffff; /* White text for dark mode */
+  --text-secondary : #262B2C; /* Gray text for light mode */
+  --text-ternary : #989B9C;
+  --container-bg: #1d1d1d; /* Dark background for night mode */
+  --button-hover-bg: #b8b8b8; /* gray button hover background */
+  --color-mehndi :#b5b874; /* Green color for dark mode */
+  --color-orange: #F5AB41; /* Orange color for dark mode */
+  
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--navbar-text);
+  font-family: 'Poppins', sans-serif;
+}
