@@ -34,7 +34,10 @@ const ProductCard = ({ name, image, originalPrice, salePrice, rating, onSale }) 
                     Sale!
                 </span>
             )}
-        </article>
+            {/* Best Seller Tag */}
+            <span className="absolute top-2 left-0 z-40 text-white bg-red-600 w-24 h-6 text-center text-xs font-semibold rotate-[-45deg] -translate-x-7 translate-y-3">
+                Best Seller
+            </span>        </article>
     )
 }
 
